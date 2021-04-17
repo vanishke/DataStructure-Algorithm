@@ -1,5 +1,5 @@
 package com.vanishke.cn.sort;
-
+//冒泡排序
 public class BubbleSort {
 
     public static int[] sort(int []array)
