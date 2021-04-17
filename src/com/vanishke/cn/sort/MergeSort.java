@@ -42,7 +42,5 @@ public class MergeSort {
     {
         int a[] = {1,3,6,8,13} ,b[] ={2,4,6,8,13,18};
         display(sort(a,b));
-
-
     }
 }
