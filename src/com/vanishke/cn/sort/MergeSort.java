@@ -40,6 +40,7 @@ public class MergeSort {
 
     public static void main(String args[])
     {
+        //归并排序
         int a[] = {1,3,6,8,13} ,b[] ={2,4,6,8,13,18};
         display(sort(a,b));
     }
