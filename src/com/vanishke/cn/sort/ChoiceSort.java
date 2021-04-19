@@ -1,5 +1,5 @@
 package com.vanishke.cn.sort;
-
+//选择排序
 public class ChoiceSort {
 
     public static int[] sort(int[] array)
