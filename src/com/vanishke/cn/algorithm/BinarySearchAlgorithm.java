@@ -1,6 +1,6 @@
 package com.vanishke.cn.algorithm;
 import static java.lang.System.out;
-
+//二分查找
 public class BinarySearchAlgorithm {
 
     public static int binarySearch(int array[] ,int key)
