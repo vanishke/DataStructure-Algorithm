@@ -1,7 +1,7 @@
 package com.vanishke.cn.sort;
 import java.util.Arrays;
 import static java.lang.System.out;
-// 直接插入排序
+// 插入排序
 public class DirectInsertSort {
 
     public static void sort(int arr[])
