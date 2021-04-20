@@ -1,5 +1,5 @@
 package com.vanishke.cn.stack;
-
+//栈实现
 public class MyStack {
     //栈存储数据数组
     private int[] array;
