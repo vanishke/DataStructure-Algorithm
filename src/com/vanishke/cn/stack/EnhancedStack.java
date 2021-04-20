@@ -2,7 +2,7 @@ package com.vanishke.cn.stack;
 
 import java.util.Arrays;
 import java.util.EmptyStackException;
-
+//加强型栈实现
 public class EnhancedStack {
 
     private Object[] elementData;
