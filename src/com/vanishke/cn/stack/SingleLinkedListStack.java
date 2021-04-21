@@ -2,7 +2,7 @@ package com.vanishke.cn.stack;
 import com.vanishke.cn.linkedlist.SingleLinkedList;
 import static java.lang.System.out;
 /*
-单链表链表实现栈
+单链表实现栈
  */
 public class SingleLinkedListStack {
     private SingleLinkedList link ;
