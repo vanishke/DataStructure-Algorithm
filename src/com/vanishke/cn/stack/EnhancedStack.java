@@ -136,6 +136,7 @@ public class EnhancedStack {
             System.out.print(s.pop());
         }
         */
+        //利用栈实现运算符检测
         EnhancedStack stack = new EnhancedStack(3);
         String str = "12<a[b{c}]>";
         char[] cha = str.toCharArray();
