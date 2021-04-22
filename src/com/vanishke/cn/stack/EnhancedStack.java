@@ -98,7 +98,7 @@ public class EnhancedStack {
 
     public static void main(String args[])
     {
-        /* 栈空间可扩展实现，可存储多种类型
+        // 栈空间可扩展实现，可存储多种类型
         EnhancedStack s = new EnhancedStack(3);
         System.out.println("压栈");
         s.push(1);
@@ -120,7 +120,7 @@ public class EnhancedStack {
         System.out.println(s.pop());
         System.out.println("访问栈顶元素：");
         System.out.println(s.peek());
-        */
+
         /* 利用栈特性，反转字符串
         EnhancedStack s = new EnhancedStack(3);
         String reverseStr = " this is a reverse String";
@@ -135,10 +135,10 @@ public class EnhancedStack {
         {
             System.out.print(s.pop());
         }
-        */
-        //利用栈实现运算符检测
+
+        /*利用栈实现运算符检测
         EnhancedStack stack = new EnhancedStack(3);
-        String str = "12<a[b{c}]>";
+        String str = "12<a[b{c}]>>";
         char[] cha = str.toCharArray();
         for(char c : cha){
             switch (c) {
@@ -154,18 +154,19 @@ public class EnhancedStack {
                         char ch = stack.pop().toString().toCharArray()[0];
                         if(c=='}' && ch != '{'
                                 || c==']' && ch != '['
-                                || c==')' && ch != '('){
+                                || c=='>' && ch != '<'){
                             System.out.println("Error:"+ch+"‐"+c);
                         }
-                        else
-                        {
-                            System.out.println("match");
-                        }
+                    }
+                    else
+                    {
+                        System.out.println("Error:"+c);
                     }
                     break;
                 default:
                     break;
             }
         }
+        */
     }
 }
