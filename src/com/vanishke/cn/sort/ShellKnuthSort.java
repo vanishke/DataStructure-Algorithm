@@ -16,7 +16,8 @@ public class ShellKnuthSort {
             step = step*3 + 1;
             out.println("step:"+step);
         }
-        while(step > 0){
+        while(step > 0)
+        {
             //分别对每个增量间隔进行排序
             for(int i = step ; i < len ; i++)
             {
