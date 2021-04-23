@@ -14,14 +14,18 @@ public class ShellKnuthSort {
         {
             //步长间隔3n+1
             step = step*3 + 1;
+            out.println("step:"+step);
         }
-        out.println("步长："+step);
         while(step > 0){
             //分别对每个增量间隔进行排序
-            for(int i = step ; i < len ; i++){
+            for(int i = step ; i < len ; i++)
+            {
+                //记录需要进行交换的数据
                 int temp = array[i];
                 int j = i;
-                while(j > step-1 && temp <= array[j-step]){
+                //比较对应3n+1间隔的数据，如果满足条件，则交换
+                while(j > step-1 && temp <= array[j-step])
+                {
                     array[j] = array[j-step];
                     j = j-step;
                 }
