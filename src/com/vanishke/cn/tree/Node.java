@@ -13,6 +13,7 @@ public class Node{
     {
         this.data = data;
     }
+    //输出节点值
     public void display()
     {
         out.println(data);

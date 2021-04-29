@@ -255,48 +255,71 @@ public class BinaryTree implements Tree {
     @Override
     public void infixOrder(Node current) {
         //递归调用
-        while(current != null)
+        if(current != null)
         {
             //先遍历左节点
             infixOrder(current.leftNode);
             //遍历当前节点
-            out.print(current.data);
+            out.print(current.data+" ");
             //遍历右节点
             infixOrder(current.rightNode);
         }
+
     }
     //前序遍历
     @Override
     public void preOrder(Node current) {
         //递归调用
-        while(current != null)
+        if(current != null)
         {
             //遍历当前节点
-            out.print(current.data);
+            out.print(current.data+" ");
             //遍历左节点
             preOrder(current.leftNode);
             //遍历右节点
             preOrder(current.rightNode);
         }
+
     }
     //后续遍历
     @Override
     public void postOrder(Node current) {
         //递归调用
-        while(current != null)
+        if(current != null)
         {
             //遍历左节点
             postOrder(current.leftNode);
             //遍历右节点
             postOrder(current.rightNode);
             //遍历当前节点
-            out.print(current.data);
+            out.print(current.data+" ");
         }
+
     }
 
 
     public static void main(String args[])
     {
+        BinaryTree bt = new BinaryTree();
+        bt.insert(10);
+        bt.find(10);
+        bt.insert(12);
+        bt.insert(13);
+        bt.insert(14);
+        bt.insert(15);
+        bt.insert(16);
+        bt.insert(18);
+        bt.insert(100);
+        bt.delete(16);
+        bt.delete(20);
+        out.println("查找最大值："+bt.findMax().data);
+        out.println("查找最小值："+bt.findMin().data);
+
+        bt.infixOrder(bt.root);
+        out.println();
+        bt.preOrder(bt.root);
+        out.println();
+        bt.postOrder(bt.root);
 
     }
 }

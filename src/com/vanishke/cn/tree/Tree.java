@@ -19,7 +19,7 @@ public interface Tree {
      * 删除节点
      * @param data
      */
-    public void delete(int data);
+    public boolean delete(int data);
 
     /**
      * 查找最大值
@@ -50,5 +50,13 @@ public interface Tree {
      * @param current
      */
     public void postOrder(Node current);
+
+    /**
+     * 查找后继节点
+     * @param delNode
+     * @return
+     */
+    public Node getSuccessor(Node delNode);
+
 
 }
