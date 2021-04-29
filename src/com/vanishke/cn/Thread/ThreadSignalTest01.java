@@ -1,5 +1,5 @@
 package com.vanishke.cn.Thread;
-
+//线程之间顺序执行
 public class ThreadSignalTest01 {
 
 	static Object lock = new Object();

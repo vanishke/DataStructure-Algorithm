@@ -3,7 +3,7 @@ package com.vanishke.cn.Thread;
 import java.util.Random;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
-
+//CyclicBarriers实现
 public class ThreadSignalTest3 {
 
 

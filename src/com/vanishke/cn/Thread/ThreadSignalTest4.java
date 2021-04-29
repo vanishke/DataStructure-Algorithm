@@ -3,7 +3,7 @@ package com.vanishke.cn.Thread;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
-
+//Callable实现
 public class ThreadSignalTest4 {
 
 

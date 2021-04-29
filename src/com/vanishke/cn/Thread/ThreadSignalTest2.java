@@ -1,7 +1,7 @@
 package com.vanishke.cn.Thread;
 
 import java.util.concurrent.CountDownLatch;
-
+//countDownLatch实现
 public class ThreadSignalTest2 {
 
 
