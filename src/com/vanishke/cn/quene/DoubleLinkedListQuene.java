@@ -2,6 +2,7 @@ package com.vanishke.cn.quene;
 
 import com.vanishke.cn.linkedlist.DoublePointLinkedList;
 import static java.lang.System.out;
+//双端队列
 public class DoubleLinkedListQuene {
 
     private DoublePointLinkedList quene ;

@@ -1,6 +1,7 @@
 package com.vanishke.cn.quene;
 
 import static java.lang.System.out;
+//优先级队列
 public class PriorityQuene {
 
     private int maxSize;

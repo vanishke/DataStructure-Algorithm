@@ -3,6 +3,7 @@ package com.vanishke.cn.quene;
 import java.util.concurrent.ThreadPoolExecutor;
 
 import static java.lang.System.out;
+//队列
 public class MyQuene {
     //队列实际数据存放数组
     private Object[] queArray;
