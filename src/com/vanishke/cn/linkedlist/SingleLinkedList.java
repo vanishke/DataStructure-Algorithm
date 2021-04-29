@@ -1,6 +1,7 @@
 package com.vanishke.cn.linkedlist;
 
 import static java.lang.System.out;
+//单端队列
 public class SingleLinkedList {
     //链表大小
     private int size;
