@@ -1,5 +1,5 @@
 package com.vanishke.cn.Singleton;
-
+//单例枚举类实现
 public class SingletonEnum01 {
 
 	private enum SingletonEnum{

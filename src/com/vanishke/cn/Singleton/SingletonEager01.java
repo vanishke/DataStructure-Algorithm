@@ -1,5 +1,5 @@
 package com.vanishke.cn.Singleton;
-
+//饿汉模式
 public class SingletonEager01 {
 	private final static SingletonEager01 singletonEager = new SingletonEager01();
 	public SingletonEager01()

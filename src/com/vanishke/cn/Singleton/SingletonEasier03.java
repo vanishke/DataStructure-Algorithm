@@ -1,5 +1,5 @@
 package com.vanishke.cn.Singleton;
-
+//饱汉-变种2模式
 public class SingletonEasier03 {
 
 	private static SingletonEasier03 singleton = null;

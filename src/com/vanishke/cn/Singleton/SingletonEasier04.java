@@ -1,5 +1,5 @@
 package com.vanishke.cn.Singleton;
-
+//饱汉-变种3-volatile-doubleCheck
 public class SingletonEasier04 {
 
 	private static volatile SingletonEasier04 singleton  = null;

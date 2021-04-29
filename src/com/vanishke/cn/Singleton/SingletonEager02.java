@@ -1,5 +1,5 @@
 package com.vanishke.cn.Singleton;
-
+//饿汉-Holder模式
 public class SingletonEager02 {
 
 	private static class SingletonHolder{
