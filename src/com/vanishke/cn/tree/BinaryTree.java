@@ -312,14 +312,17 @@ public class BinaryTree implements Tree {
         bt.insert(100);
         bt.delete(16);
         bt.delete(20);
-        out.println("查找最大值："+bt.findMax().data);
-        out.println("查找最小值："+bt.findMin().data);
-
+        out.print("查找二叉树中的最大值:");
+        out.println(bt.findMax().data);
+        out.print("查找二叉树中的最小值：");
+        out.println(bt.findMin().data);
+        out.println("二叉树中序遍历：");
         bt.infixOrder(bt.root);
         out.println();
+        out.println("二叉树前序遍历：");
         bt.preOrder(bt.root);
         out.println();
+        out.println("二叉树后续遍历：");
         bt.postOrder(bt.root);
-
     }
 }
